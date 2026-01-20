@@ -1,0 +1,64 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.relationships;
+
+import java.util.*;
+
+/**
+ *
+ * @author AMoylan2026
+ */
+public class Relationships {
+
+    public static void main(String[] args) {
+    
+        Scanner scan =new Scanner(System.in);
+        
+        
+    }
+    
+    
+    
+}
+
+interface Priority{
+    void setPriority();
+    //write if and statement 1-10 ranking urgency
+}
+
+interface Complexity{
+    void setComplexity();
+    //write if and statement 1-10 ranking urgency
+}
+
+class Task implements Priority, Complexity{
+    
+    private String toDo = "";
+    
+    public Task (String inToDo){
+        toDo = inToDo;
+        
+    }
+    
+    public Task (){
+        toDo = "";
+        
+    }
+    
+    public void setTask(String t){
+        toDo = t;
+    }
+    
+    //toString
+
+@Override    
+    public String toString(){
+        String myString = "Task:" + toDo;
+        
+        return myString;
+    }
+    
+  
+}
