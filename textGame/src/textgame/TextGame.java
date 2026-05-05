@@ -1,0 +1,520 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package textgame;
+
+/**
+ *
+ * @author AMoylan2026
+ */
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import java.util.*;
+
+
+
+public class TextGame {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        String s1 = "text files game/1.txt";
+        String s11 = "text files game/1.1.txt";
+        String s12 = "text files game/1.2.txt";
+        String s13 = "text files game/1.3.txt";
+        
+        String s111 = "text files game/1.1.1.txt";
+        String s112 = "text files game/1.1.2.txt";
+        String s1111 = "text files game/1.1.1.1.txt";
+        String s1112 = "text files game/1.1.1.2.txt";
+        String s1113 = "text files game/1.1.1.3.txt";
+        String s11121 = "text files game/1.1.1.2.1.txt";
+        String s11122 = "text files game/1.1.1.2.2.txt";
+        
+        String s122 = "text files game/1.2.2.txt";
+        String s121 = "text files game/1.2.1.txt";
+
+        
+        //1.3ssssss
+        String s131 = "text files game/1.3.1.txt";
+        String s132 = "text files game/1.3.2.txt";
+        String s1321 = "text files game/1.3.2.1.txt";
+        String s1322 = "text files game/1.3.2.2.txt";
+        String s1323 = "text files game/1.3.2.3.txt";
+        String s13211 = "text files game/1.3.2.1.1.txt";
+        String s13212 = "text files game/1.3.2.1.2.txt";
+        String s13231 = "text files game/1.3.2.3.1.txt";
+        String s13232 = "text files game/1.3.2.3.2.txt";
+        
+        
+        String choice = "";
+        
+        
+        
+Scanner scan = new Scanner(System.in);
+
+
+        
+try (BufferedReader reader = new BufferedReader(new
+FileReader(s1))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+
+choice = scan.next();
+
+switch (choice){
+    case "a":
+        
+        
+        
+        try (BufferedReader reader = new BufferedReader(new
+FileReader(s11))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+ 
+        choice = scan.next();
+       switch (choice){
+        case "a": 
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s111))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+       choice = scan.next();
+       switch (choice){
+        case "a": 
+           
+            
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s1111))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+         
+        case "b":
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s1112))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            choice = scan.next();
+       switch (choice){
+        case "a": 
+           
+            
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s11121))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+         
+        case "b":
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s11122))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+        default:
+     System.out.println("Lowercase letters please try again");
+    }    
+            
+        break;  
+        case "c":
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s1113))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+           break;
+        default:
+     System.out.println("Lowercase letters please try again");
+    }    
+            
+            
+        break;  
+        case "b":
+            
+            
+            
+            
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s112))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+        break;  
+        default:
+     System.out.println("Lowercase letters please try again");
+    }
+        
+        break;  
+    case "b":
+        
+        
+        
+        try (BufferedReader reader = new BufferedReader(new
+FileReader(s12))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+        
+    
+ choice = scan.next();
+       switch (choice){
+        case "a": 
+           
+            
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s121))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+         
+        case "b":
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s122))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+        default:
+     System.out.println("Lowercase letters please try again");
+    }      
+        
+        
+        break;
+    case "c":
+        
+        
+        
+       try (BufferedReader reader = new BufferedReader(new
+FileReader(s13))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+} 
+       choice = scan.next();
+       switch (choice){
+        case "a": 
+           
+            
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s131))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+         
+        case "b":
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s132))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            choice = scan.next();
+       switch (choice){
+        case "a": 
+           
+            
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s1321))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            choice = scan.next();
+       switch (choice){
+        case "a": 
+           
+            
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s13211))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+         
+        case "b":
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s13212))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+        default:
+     System.out.println("Lowercase letters please try again");
+    }      
+       
+       
+       
+       
+        break;  
+         
+        case "b":
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s1322))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+         case "c":
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s1323))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+            choice = scan.next();
+       switch (choice){
+        case "a": 
+           
+            
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s13231))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+         
+        case "b":
+            
+            try (BufferedReader reader = new BufferedReader(new
+FileReader(s13232))) {
+String line;
+
+while ((line = reader.readLine()) != null) {
+System.out.println(line);
+}
+} catch (IOException e) {
+System.err.println("An error occurred while reading from the file: "
++ e.getMessage());
+}
+            
+        break;  
+        default:
+     System.out.println("Lowercase letters please try again");
+    }      
+       
+       
+       
+        break;  
+        default:
+     System.out.println("Lowercase letters please try again");
+    }      
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+            
+        break;  
+        default:
+     System.out.println("Lowercase letters please try again");
+    }      
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        break;     
+    default:
+     System.out.println("Lowercase letters please try again");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}

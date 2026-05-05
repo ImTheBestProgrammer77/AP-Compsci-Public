@@ -1,0 +1,25 @@
+You live in a magical kingdom. While you do not possess any magical abilities of your own you have been trained
+by the Captain of the Kings Guard, who just so happens to be your uncle.
+You have become a very helpful asset to the king and often go on quests for him.
+
+
+You are given a letter that appears to be from the king. You read the letter:
+
+
+	Hello,
+	I need you to recover an artifact from a ruin system known as Name
+	But be careful because the ruins contain remnants of ancient magic.
+	Also by the way, it maaaaaaay be guarded by creatures sent by the
+	evil king ARMIN.
+	Hurry back soon!
+	Yours truly,
+	The royal highness for ever and ever: King
+
+
+You read this letter and decide to start off on your journey right away.
+
+How are you getting to the ruins?
+
+A: You are walking (heard its good for you)
+B: Hitchhiking (why waste the energy)
+C: via horse (efficiency)

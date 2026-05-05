@@ -1,0 +1,17 @@
+You chose to walk to the ruins. They aren't that far right?
+Wrong
+
+You have been walking for days, your food supply is dwindling rather
+quickly and you may need to start foraging for wild foodstuffs.
+
+While you are walking (relatively slower than when you started)
+you see a bush filled with blackberries!
+
+You decide to pick some to take with you.
+
+As you have your head in the bush you hear a rustling coming from the path.
+
+Do you:
+
+A) immediately stop and turn around
+B) It's probably a bunny 
